@@ -1,4 +1,5 @@
 # Brushed ESC — Low cost High-Power Motor Driver
+![WhatsApp Image 2025-10-22 at 12 58 51](https://github.com/user-attachments/assets/1b575df3-380b-44a0-a5f2-1d9487769361)
 
 A **bare-minimum brushed ESC** designed for **high-power RC airplane and drone applications**, built with a **single MOSFET topology** for simplicity, efficiency, and reliability.
 
@@ -32,4 +33,5 @@ This ESC:
 
 ---
 
+<img width="600" height="501" alt="Schematic_beushed-esc_2025-10-18" src="https://github.com/user-attachments/assets/a84607b6-527c-4aef-835b-3a9978ab6b19" />
 
