@@ -1,9 +1,9 @@
-# 🔋 NUKE LABS Brushed ESC — Minimal High-Power Motor Driver
+# Brushed ESC — Low cost High-Power Motor Driver
 
 A **bare-minimum brushed ESC** designed for **high-power RC airplane and drone applications**, built with a **single MOSFET topology** for simplicity, efficiency, and reliability.
 
 > Most commercial brushed ESCs are overpriced, overcomplicated, and still lack proper current ratings.  
-> This design by [NUKE LABS](https://github.com/nukelabs) fixes that — clean, cheap, powerful, and open-source.
+> This design fixes that — clean, cheap, powerful, and open-source.
 
 ---
 
@@ -21,9 +21,9 @@ A **bare-minimum brushed ESC** designed for **high-power RC airplane and drone a
 
 ---
 
-## 🧩 Why This ESC?
+## Why This ESC?
 
-Typical brushed ESCs include firmware (like BLHeli or DShot) and H-bridge drivers for bidirectional control — features that are **not needed for RC airplane propulsion**.  
+Typical brushed ESCs include mcu with firmware and H-bridge drivers for bidirectional control — features that are **not needed for RC airplane propulsion**.  
 
 This ESC:
 - Uses only **one N-channel MOSFET** → higher current capacity, lower heat.
@@ -32,16 +32,4 @@ This ESC:
 
 ---
 
-## 📐 Circuit Overview
 
-### Core Topology
-```text
-VCC ──┬──────────── Motor +
-       │
-      [D1] 1N5819
-       │
-PWM → [R2]1k → Gate of Q1(IRFZ44N)
-       │
-     [R1]10k pulldown
-       │
-GND ──┴── Source (Q1)
